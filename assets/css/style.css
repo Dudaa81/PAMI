@@ -1,9 +1,22 @@
+:root{
+
+    --primary-color:#DA5AE0 ;
+    --secondary-color: #8F67BE;
+    --tertiary-color: #696ED5;
+    --quaternary-color:#58ABF5 ;
+    --quinary-color: #54C8C6;
+    --light-color:#f2f2f2 ; 
+    --medium-color: #918787;
+    --dark-color: #333232;
+}
+
+
 .bg-custom {
-    background: rgb(62,0,94);
-    background: linear-gradient(90deg, rgba(62,0,94,1) 0%, rgba(118,15,171,1) 27%, rgba(210,83,255,1) 56%, rgba(118,15,171,1) 81%, rgba(62,0,94,1) 100%);
+    background: var(--secondary-color);
+    background: linear-gradient(90deg, var(--secondary-color) 0%, var(--quaternary-color) 27%, var(--primary-color) 56%, var(--tertiary-color) 81%, var(--quinary-color) 100%);
 }
 
 .navbar-brand,
 .nav-link {
-    color: white;
+    color: var(--light-color);
 }
